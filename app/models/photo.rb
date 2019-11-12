@@ -1,3 +1,3 @@
 class Photo < ApplicationRecord
-    has_many :species 
+    belongs_to :categories 
 end

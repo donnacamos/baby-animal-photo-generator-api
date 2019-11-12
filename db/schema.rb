@@ -12,14 +12,15 @@
 
 ActiveRecord::Schema.define(version: 2019_10_31_221451) do
 
-  create_table "photos", force: :cascade do |t|
-    t.string "image_url"
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "species", force: :cascade do |t|
-    t.string "name"
+  create_table "photos", force: :cascade do |t|
+    t.string "image_url"
+    t.string "artist_name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
