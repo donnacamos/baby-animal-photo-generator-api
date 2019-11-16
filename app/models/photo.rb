@@ -1,3 +1,3 @@
 class Photo < ApplicationRecord
-    belongs_to :categories 
+    has_many :comments  
 end
