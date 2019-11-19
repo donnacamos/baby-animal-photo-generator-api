@@ -12,8 +12,8 @@
 # ])
 
 Photo.create([
-    {category_id: 1, image_url: 'https://images.unsplash.com/photo-1535343715417-9f7c63207a65?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'David Clode'},
-    {category_id: 2, image_url: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Edgar Edgar'}
+    {image_url: 'https://images.unsplash.com/photo-1535343715417-9f7c63207a65?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'David Clode'},
+    {image_url: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Edgar Edgar'}
 ])
 
 
