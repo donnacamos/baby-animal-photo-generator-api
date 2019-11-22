@@ -3,3 +3,5 @@ class CommentSerializer
   attributes :name, :body 
   belongs_to :photo 
 end
+
+
