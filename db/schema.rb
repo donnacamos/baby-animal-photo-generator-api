@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2019_11_16_000249) do
 
   create_table "comments", force: :cascade do |t|
-    t.string "name"
+    t.integer "photo_id"
     t.string "body"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 2019_11_16_000249) do
     t.string "artist_name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "category_id"
   end
 
 end

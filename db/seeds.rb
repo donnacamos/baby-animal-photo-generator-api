@@ -12,9 +12,19 @@
 # ])
 
 Photo.create([
-    {image_url: 'https://images.unsplash.com/photo-1535343715417-9f7c63207a65?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'David Clode'},
-    {image_url: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Edgar Edgar'},
-    {image_url: 'https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Joe Caione'},
+    {image_url: 'https://images.unsplash.com/photo-1535343715417-9f7c63207a65?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9',
+     artist_name: 'David Clode',
+     comments_attributes: [body: 'Cute baby elephant'] 
+    },
+    {image_url: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9',
+     artist_name: 'Edgar Edgar',
+     comments_attributes: [body: 'Adorable!'] 
+    },
+    {image_url: 'https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9',
+     artist_name: 'Joe Caione',
+     comments_attributes: [body: 'Good boy!'] 
+    
+    },
     {image_url: 'https://images.unsplash.com/photo-1535979863199-3c77338429a0?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Bill Fairs'},
     {image_url: 'https://images.unsplash.com/photo-1553568214-7da5a1ba2252?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Jake Fagan'}, 
     {image_url: 'https://images.unsplash.com/photo-1511195188569-9b97074ae1b1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Soledad Lorieto'},
@@ -29,5 +39,11 @@ Photo.create([
     {image_url: 'https://images.unsplash.com/photo-1544211413-319e9a50e6a4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Zoë Reeve'},
     {image_url: 'https://images.unsplash.com/photo-1516467508483-a7212febe31a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9', artist_name: 'Christopher Carson'}
 ])
+
+# Comment.create([
+#     { photo_id: 1, body: 'Cute!'},
+#     { photo_id: 2, body: 'I like that!'},
+#     { photo_id: 3, body: 'AWWWWWW!'}
+# ])
 
 
