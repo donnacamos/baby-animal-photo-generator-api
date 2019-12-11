@@ -10,9 +10,15 @@ class Api::V1::CommentsController < ApplicationController
     end 
 
     def create 
-        @comment = Comment.create(comment_params)
-
-        render json: @comment, status: 200 
+        @comment = Comment.new(comment_params)
+        if @comment.save 
+            render json: @comment, status: 200 
+        else 
+            error_response = {
+                error: @comment.errors.full_messages 
+            }
+            render json: error_response, status: :unprocessable_entity 
+        end 
     end
 
     def update 
